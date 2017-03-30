@@ -1,10 +1,10 @@
 'This macro splits a phrase and sort each word
 
-Public Function ORDENAR_FRASES(Txt_Entrada As String, Descendente As Boolean) As String
+Public Function ORDENAR_FRASES(Txt_Entrada As String, Descendente As Boolean, Delimitador As String) As String
 
 Dim VerPalabra() As String
 Dim text_string As String
-VerPalabra() = Split(Txt_Entrada)
+VerPalabra() = Split(Txt_Entrada, Delimitador)
 
 If Descendente Then
 
