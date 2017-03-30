@@ -1,3 +1,9 @@
+Public Enum Extraccion
+    Alfabetico = 1
+    Numerico = 2
+    Alfanumerico = 3
+End Enum
+
 Public Function EXTRAE_ESPECIAL(Txt_Entrada As String, Tipo As Extraccion, Espacios As Boolean) As String
 
 Dim objRegEx As Object
