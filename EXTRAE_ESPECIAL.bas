@@ -1,3 +1,6 @@
+' This function allows to clean a string and returns a letters only, number only or alphanumeric only string 
+' according to Tipo parameter. It is possible to include or exclude spaces with the boolean parameter: Espacios
+
 Public Enum Extraccion
     Alfabetico = 1
     Numerico = 2
