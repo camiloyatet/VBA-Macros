@@ -1,5 +1,5 @@
 Sub ResizeCharts() 
-'cabiar pra que sea dinamico el libro de entrada, y las dimensiones del grafico.
+'cambiar pra que sea dinamico el libro de entrada, y las dimensiones del grafico.
     Workbooks("Workbook.xlsx").activate
     Dim ws As Worksheet
     
